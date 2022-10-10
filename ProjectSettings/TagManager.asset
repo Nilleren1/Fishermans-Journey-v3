@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - spand
   - nr1
+  - Water
   layers:
   - Default
   - TransparentFX

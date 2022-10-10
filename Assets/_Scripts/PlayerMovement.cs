@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float sprintSpeed;
     [SerializeField]
-    private LayerMask groundLayer;
+    public LayerMask groundLayer;
     [SerializeField]
     private LayerMask wallLayer;
     private Rigidbody2D body;
@@ -31,8 +31,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetMouseButton(0) && isGrounded())
+        {
+            Fish();
+        }
+        else
+        {
+            anim.SetBool("Fishing", false);
+        }
+
         horizontalInput = Input.GetAxis("Horizontal");
 
+        
 
         //Flip player when moving left or right
         if (horizontalInput > 0.01f)
@@ -48,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("Walk", horizontalInput != 0);
         anim.SetBool("Sprint", Input.GetKey(KeyCode.LeftShift) == true && isGrounded() == true);
         anim.SetBool("Grounded", isGrounded());
+        
 
         //Wall Jump logic
         if (wallJumpCooldown > 0.2f)
@@ -113,6 +124,12 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * sprintSpeed, body.velocity.y);
         anim.SetTrigger("Sprint");
+    }
+
+    private void Fish()
+    {
+        anim.SetBool("Fishing", true);
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
