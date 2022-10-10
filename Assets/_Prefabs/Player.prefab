@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1281897609743448792}
   - component: {fileID: 1281897609743448615}
-  - component: {fileID: 1281897609743448613}
   - component: {fileID: 1281897609743448614}
   m_Layer: 0
   m_Name: Main Camera
@@ -77,14 +76,6 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1281897609743448613
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281897609743448612}
-  m_Enabled: 1
 --- !u!114 &1281897609743448614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +123,7 @@ GameObject:
   - component: {fileID: 1281897610006061035}
   - component: {fileID: 1281897610006061036}
   - component: {fileID: 1281897610006061037}
+  - component: {fileID: 6203218644896000765}
   m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
@@ -256,6 +248,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  jumpForce: 0
+  sprintSpeed: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!95 &1281897610006061037
 Animator:
   serializedVersion: 4
@@ -276,6 +276,14 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!81 &6203218644896000765
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281897610006061047}
+  m_Enabled: 1
 --- !u!1 &1281897610598618945
 GameObject:
   m_ObjectHideFlags: 0
