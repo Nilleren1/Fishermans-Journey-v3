@@ -60,7 +60,7 @@ public class FishingMiniGame : MonoBehaviour
             if (catchProgress >= 1)
             {
                 //won the game
-                Debug.Log("You catched a fish!");
+                Debug.Log("You caught a fish!");
                 //Do win logic here
 
             }

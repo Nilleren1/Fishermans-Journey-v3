@@ -31,14 +31,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButton(0) && isGrounded())
+        if (Input.GetMouseButtonDown(0) && isGrounded())
         {
             Fish();
         }
-        else
+        else if (body.velocity.x > 0 || body.velocity.y > 0)
         {
             anim.SetBool("Fishing", false);
         }
+        
+            
+        
 
         horizontalInput = Input.GetAxis("Horizontal");
 
