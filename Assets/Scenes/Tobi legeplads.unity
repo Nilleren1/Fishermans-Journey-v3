@@ -123,6 +123,68 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &308079265
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1275874014}
+    m_Modifications:
+    - target: {fileID: 2613779246003163272, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_Name
+      value: FishingMiniGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.886429
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.3840003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 49.8233
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613779246003163273, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+--- !u!1 &592442547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2613779246003163272, guid: 486fe2e22cc16e7429abbff2b56def31, type: 3}
+  m_PrefabInstance: {fileID: 308079265}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &864284183
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,7 +196,7 @@ GameObject:
   - component: {fileID: 864284186}
   - component: {fileID: 864284185}
   - component: {fileID: 864284184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collision
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -249,6 +311,26 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061036, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: MiniGame
+      value: 
+      objectReference: {fileID: 592442547}
+    - target: {fileID: 1281897610006061036, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: jumpForce
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061036, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: sprintSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061036, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061036, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 1281897610598618945, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
       propertyPath: m_Name
       value: Player
@@ -322,3 +404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1275874012}
+--- !u!4 &1275874014 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1281897609743448792, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+  m_PrefabInstance: {fileID: 1275874010}
+  m_PrefabAsset: {fileID: 0}
