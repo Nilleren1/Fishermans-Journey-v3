@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b26dd9866e8ded64fbb29111a35ca700
+guid: 90c714051827b7642ad425dbbacfa0f9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -63,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -117,11 +117,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fisherman_attack_0
+      name: Fisherman_attack2_0
       rect:
         serializedVersion: 2
         x: 1
-        y: 0
+        y: 288
         width: 28
         height: 34
       alignment: 0
@@ -131,17 +131,122 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dbfb594e13a62346b013bf05d88d701
-      internalID: -1381039061
+      spriteID: dd66ae3103bba7f45aef0db6d8993d23
+      internalID: -1574273507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_attack_1
+      name: Fisherman_attack2_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 1
+        y: 240
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4990ffcb4ca6fb54e9d7d7b7237ffb77
+      internalID: -726312588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_attack2_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 192
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490caa9948ef00647bdaa27fc3243ba2
+      internalID: -1848678409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_attack2_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 144
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c192bc925330e3469789d5cad69a886
+      internalID: 1484031630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_attack2_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b65ea6450160ea4782861a09af0f921
+      internalID: 474900756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_attack2_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ccc298546d67f41b86d9836de17284
+      internalID: -113360153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_attack2_6
+      rect:
+        serializedVersion: 2
+        x: 6
         y: 0
         width: 27
         height: 34
@@ -152,92 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b36cb5487dfaec2418fc144c172510a3
-      internalID: -658336636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_attack_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 26
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c4fa7f2f0d967c46a35469f2ee273c3
-      internalID: -1663572901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_attack_3
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 0
-        width: 29
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b992011307519149b0491a2a78130d9
-      internalID: -27046685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_attack_4
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 0
-        width: 28
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 253dacf3a9557844c809dcb911b76798
-      internalID: -1802346403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_attack_5
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 0
-        width: 28
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcb298343aea17241a6d2ff2b8920e30
-      internalID: 232616754
+      spriteID: 43b51fe06b35a0c4a9a764922ac747d7
+      internalID: -883189230
       vertices: []
       indices: 
       edges: []
@@ -253,12 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fisherman_attack_1: -658336636
-      Fisherman_attack_0: -1381039061
-      Fisherman_attack_2: -1663572901
-      Fisherman_attack_4: -1802346403
-      Fisherman_attack_3: -27046685
-      Fisherman_attack_5: 232616754
+      Fisherman_attack2_0: -1574273507
+      Fisherman_attack2_6: -883189230
+      Fisherman_attack2_1: -726312588
+      Fisherman_attack2_5: -113360153
+      Fisherman_attack2_3: 1484031630
+      Fisherman_attack2_2: -1848678409
+      Fisherman_attack2_4: 474900756
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

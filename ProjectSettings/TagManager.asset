@@ -6,9 +6,9 @@ TagManager:
   tags:
   - Ground
   - spand
-  - nr1
   - Water
   - FishingMiniGame
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -20,7 +20,7 @@ TagManager:
   - 
   - Ground
   - Wall
-  - 
+  - Enemy
   - 
   - 
   - 
