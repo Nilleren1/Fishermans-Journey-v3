@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: c18bdada5adb82741aa897b051006962
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 960
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.34405154, y: 0.06884586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd41fd506a561f4fb0dd56ba6a861b5
+      internalID: -69840850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 957
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: 0.31517085, y: 0.055780586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb20e974fa393e4bbf773013c1c08ef
+      internalID: -119908593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_2
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 960
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.33535114, y: -0.0016964183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f910edc21e0152943b8eca2d432ce502
+      internalID: 1964440721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 624
+        width: 39
+        height: 44
+      alignment: 9
+      pivot: {x: 0.18971604, y: 0.072185166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2015d54b2a28f864a9f88a84802adc9b
+      internalID: -1981937966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_5
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 624
+        width: 38
+        height: 46
+      alignment: 9
+      pivot: {x: 0.21906321, y: 0.05904886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552dc202e85e344bbc1c6d884420b45
+      internalID: 1472436168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.25529003, y: 0.045537457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4826582d0f4b64391accbd454500ba
+      internalID: 1889637047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 273
+        width: 36
+        height: 46
+      alignment: 9
+      pivot: {x: 0.20895539, y: 0.044452168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65ed3603e90fda4e896110e15cf78ba
+      internalID: -99694474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_12
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 288
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.3065992, y: 0.03443819}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889e4e5684b827c4e89fa64ba8dd7a2d
+      internalID: 507947868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fisherman_betterAttack3_6: -16552200
+      Fisherman_betterAttack3_2: 1964440721
+      Fisherman_betterAttack3_1: -119908593
+      Fisherman_betterAttack3_5: 1472436168
+      Fisherman_betterAttack3_7: -486510565
+      Fisherman_betterAttack3_9: -1411952910
+      Fisherman_betterAttack3_3: -1981937966
+      Fisherman_betterAttack3_0: -69840850
+      Fisherman_betterAttack3_12: 507947868
+      Fisherman_betterAttack3_4: -1530896588
+      Fisherman_betterAttack3_11: 1152444656
+      Fisherman_betterAttack3_10: -99694474
+      Fisherman_betterAttack3_8: 1889637047
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

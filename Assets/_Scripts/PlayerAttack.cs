@@ -9,9 +9,9 @@ public class PlayerAttack : MonoBehaviour
     
     public Animator animator;
 
-    public Transform attackPoint;
-    [SerializeField] public float attackRange = 0.5f;
-    public LayerMask enemyLayers;
+    //public Transform attackPoint;
+    //[SerializeField] public float attackRange = 0.5f;
+    //public LayerMask enemyLayers;
 
 
     private void Awake()
@@ -34,6 +34,11 @@ public class PlayerAttack : MonoBehaviour
 
         }
 
+        if (Input.GetKeyDown("q"))
+        {
+            Attack3();
+        }
+
     }
 
     public void Attack()
@@ -41,34 +46,41 @@ public class PlayerAttack : MonoBehaviour
         //Play attack animation
         animator.SetTrigger("Attack");
         //Detect enemies in range of attack
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        //Damage enemy
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            Debug.Log("We hit" + enemy.name);
-        }
+        //Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        ////Damage enemy
+        //foreach (Collider2D enemy in hitEnemies)
+        //{
+        //    Debug.Log("We hit" + enemy.name);
+        //}
     }
     public void Attack2()
     {
         //Play attack animation
         animator.SetTrigger("Attack2");
         //Detect enemies in range of attack
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        //Damage enemy
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            Debug.Log("We hit" + enemy.name);
-        }
+        //Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        ////Damage enemy
+        //foreach (Collider2D enemy in hitEnemies)
+        //{
+        //    Debug.Log("We hit" + enemy.name);
+        //}
     }
 
-    void OnDrawGizmosSelected()
+    public void Attack3()
     {
-        if (attackPoint == null)
-        {
-            return;
-        }
-
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        //Play attack animation
+        animator.SetTrigger("Attack3");
+        
     }
+
+    //void OnDrawGizmosSelected()
+    //{
+    //    if (attackPoint == null)
+    //    {
+    //        return;
+    //    }
+
+    //    Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    //}
 
 }
