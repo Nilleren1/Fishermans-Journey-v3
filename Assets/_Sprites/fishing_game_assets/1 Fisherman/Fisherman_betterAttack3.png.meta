@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1d87bb18a6ffcec4ca332633c9543d69
+guid: c18bdada5adb82741aa897b051006962
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,190 +117,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fisherman_sprint_0
+      name: Fisherman_betterAttack3_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 336
+        x: 1
+        y: 960
         width: 28
         height: 34
       alignment: 9
-      pivot: {x: 0.47360978, y: 0.02510699}
+      pivot: {x: 0.34405154, y: 0.06884586}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37e9b79bc3be0bb45bb7e57620ca1c48
-      internalID: 1718463120
+      spriteID: 3dd41fd506a561f4fb0dd56ba6a861b5
+      internalID: -69840850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_1
+      name: Fisherman_betterAttack3_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 288
-        width: 28
+        x: 291
+        y: 957
+        width: 27
         height: 33
       alignment: 9
-      pivot: {x: 0.4460035, y: 0.020560525}
+      pivot: {x: 0.31517085, y: 0.055780586}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdc3b5cbb947d7f428b87e4ee827926b
-      internalID: -999607632
+      spriteID: 3fb20e974fa393e4bbf773013c1c08ef
+      internalID: -119908593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_2
+      name: Fisherman_betterAttack3_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 239
+        x: 577
+        y: 960
         width: 28
-        height: 32
+        height: 34
       alignment: 9
-      pivot: {x: 0.38357708, y: 0.051836967}
+      pivot: {x: 0.33535114, y: -0.0016964183}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da8f4f25b078f5946b7d4c445698d213
-      internalID: 286725785
+      spriteID: f910edc21e0152943b8eca2d432ce502
+      internalID: 1964440721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_3
+      name: Fisherman_betterAttack3_3
       rect:
         serializedVersion: 2
-        x: 53
-        y: 198
-        width: 31
-        height: 26
+        x: 289
+        y: 624
+        width: 39
+        height: 44
       alignment: 9
-      pivot: {x: 0.42471093, y: 0.045468256}
+      pivot: {x: 0.18971604, y: 0.072185166}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b0b78b39f9ed2b49a012e28332d3b2e
-      internalID: -1033652509
+      spriteID: 2015d54b2a28f864a9f88a84802adc9b
+      internalID: -1981937966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_4
+      name: Fisherman_betterAttack3_5
       rect:
         serializedVersion: 2
-        x: 58
-        y: 146
-        width: 26
-        height: 30
+        x: 576
+        y: 624
+        width: 38
+        height: 46
       alignment: 9
-      pivot: {x: 0.3201156, y: 0.033915203}
+      pivot: {x: 0.21906321, y: 0.05904886}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d59e18e25f44c8458182c495161ce33
-      internalID: 668089603
+      spriteID: 9552dc202e85e344bbc1c6d884420b45
+      internalID: 1472436168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_5
+      name: Fisherman_betterAttack3_8
       rect:
         serializedVersion: 2
-        x: 56
-        y: 96
+        x: 0
+        y: 624
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.25529003, y: 0.045537457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4826582d0f4b64391accbd454500ba
+      internalID: 1889637047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 273
+        width: 36
+        height: 46
+      alignment: 9
+      pivot: {x: 0.20895539, y: 0.044452168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65ed3603e90fda4e896110e15cf78ba
+      internalID: -99694474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_betterAttack3_12
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 288
         width: 28
-        height: 32
+        height: 34
       alignment: 9
-      pivot: {x: 0.39939663, y: 0.04479003}
+      pivot: {x: 0.3065992, y: 0.03443819}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85ffdbf17f7538249b7b7e2b4c3c65c8
-      internalID: 14930166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_6
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 48
-        width: 26
-        height: 32
-      alignment: 9
-      pivot: {x: 0.32998747, y: 0.033532977}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 980ecbd4f6f30954588813addf2ea711
-      internalID: -283417962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_7
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 4
-        width: 32
-        height: 28
-      alignment: 9
-      pivot: {x: 0.3322711, y: 0.047059603}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b5dddd2903e7d648b1b8f7e7f2ac476
-      internalID: 1666711309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_8
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 102
-        width: 2
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e32771e4ece6e54ea3485cb3bb2423b
-      internalID: 1558718886
+      spriteID: 889e4e5684b827c4e89fa64ba8dd7a2d
+      internalID: 507947868
       vertices: []
       indices: 
       edges: []
@@ -316,15 +295,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fisherman_sprint_5: 14930166
-      Fisherman_sprint_1: -999607632
-      Fisherman_sprint_7: 1666711309
-      Fisherman_sprint_8: 1558718886
-      Fisherman_sprint_6: -283417962
-      Fisherman_sprint_2: 286725785
-      Fisherman_sprint_0: 1718463120
-      Fisherman_sprint_4: 668089603
-      Fisherman_sprint_3: -1033652509
+      Fisherman_betterAttack3_6: -16552200
+      Fisherman_betterAttack3_2: 1964440721
+      Fisherman_betterAttack3_1: -119908593
+      Fisherman_betterAttack3_5: 1472436168
+      Fisherman_betterAttack3_7: -486510565
+      Fisherman_betterAttack3_9: -1411952910
+      Fisherman_betterAttack3_3: -1981937966
+      Fisherman_betterAttack3_0: -69840850
+      Fisherman_betterAttack3_12: 507947868
+      Fisherman_betterAttack3_4: -1530896588
+      Fisherman_betterAttack3_11: 1152444656
+      Fisherman_betterAttack3_10: -99694474
+      Fisherman_betterAttack3_8: 1889637047
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

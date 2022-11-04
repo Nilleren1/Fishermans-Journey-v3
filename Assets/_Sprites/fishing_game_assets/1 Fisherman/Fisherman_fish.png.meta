@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1d87bb18a6ffcec4ca332633c9543d69
+guid: f8389553250d5764eaf7bb6b77a98bc4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -63,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -117,190 +117,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fisherman_sprint_0
+      name: Fisherman_fish_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 336
-        width: 28
+        x: 9
+        y: 0
+        width: 35
         height: 34
       alignment: 9
-      pivot: {x: 0.47360978, y: 0.02510699}
+      pivot: {x: 0.07564801, y: 0.04331084}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37e9b79bc3be0bb45bb7e57620ca1c48
-      internalID: 1718463120
+      spriteID: 34e2773f1a3e9b844a5f30717e6dc86d
+      internalID: -29226299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_1
+      name: Fisherman_fish_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 288
-        width: 28
-        height: 33
+        x: 57
+        y: 0
+        width: 35
+        height: 34
       alignment: 9
-      pivot: {x: 0.4460035, y: 0.020560525}
+      pivot: {x: 0.05635921, y: 0.04331084}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdc3b5cbb947d7f428b87e4ee827926b
-      internalID: -999607632
+      spriteID: a8058ced9783fdf4da823fd9a7563bc8
+      internalID: -1577045360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_2
+      name: Fisherman_fish_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 239
-        width: 28
-        height: 32
+        x: 105
+        y: 0
+        width: 35
+        height: 34
       alignment: 9
-      pivot: {x: 0.38357708, y: 0.051836967}
+      pivot: {x: 0.07564806, y: 0.04331084}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da8f4f25b078f5946b7d4c445698d213
-      internalID: 286725785
+      spriteID: 8dde0414dce77ad4fb6f4a7948988e84
+      internalID: 345649330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_sprint_3
+      name: Fisherman_fish_3
       rect:
         serializedVersion: 2
-        x: 53
-        y: 198
-        width: 31
-        height: 26
+        x: 153
+        y: 0
+        width: 35
+        height: 34
       alignment: 9
-      pivot: {x: 0.42471093, y: 0.045468256}
+      pivot: {x: 0.075647846, y: 0.04331084}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b0b78b39f9ed2b49a012e28332d3b2e
-      internalID: -1033652509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_4
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 146
-        width: 26
-        height: 30
-      alignment: 9
-      pivot: {x: 0.3201156, y: 0.033915203}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d59e18e25f44c8458182c495161ce33
-      internalID: 668089603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_5
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 96
-        width: 28
-        height: 32
-      alignment: 9
-      pivot: {x: 0.39939663, y: 0.04479003}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85ffdbf17f7538249b7b7e2b4c3c65c8
-      internalID: 14930166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_6
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 48
-        width: 26
-        height: 32
-      alignment: 9
-      pivot: {x: 0.32998747, y: 0.033532977}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 980ecbd4f6f30954588813addf2ea711
-      internalID: -283417962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_7
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 4
-        width: 32
-        height: 28
-      alignment: 9
-      pivot: {x: 0.3322711, y: 0.047059603}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b5dddd2903e7d648b1b8f7e7f2ac476
-      internalID: 1666711309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_sprint_8
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 102
-        width: 2
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e32771e4ece6e54ea3485cb3bb2423b
-      internalID: 1558718886
+      spriteID: 9a40db7afd79440449f03746b215d24d
+      internalID: 1814603253
       vertices: []
       indices: 
       edges: []
@@ -316,15 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fisherman_sprint_5: 14930166
-      Fisherman_sprint_1: -999607632
-      Fisherman_sprint_7: 1666711309
-      Fisherman_sprint_8: 1558718886
-      Fisherman_sprint_6: -283417962
-      Fisherman_sprint_2: 286725785
-      Fisherman_sprint_0: 1718463120
-      Fisherman_sprint_4: 668089603
-      Fisherman_sprint_3: -1033652509
+      Fisherman_fish_1: -1577045360
+      Fisherman_fish_2: 345649330
+      Fisherman_fish_0: -29226299
+      Fisherman_fish_3: 1814603253
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

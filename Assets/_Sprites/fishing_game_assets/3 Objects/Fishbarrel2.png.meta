@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca58d6881ed4272488230edae77f035f
+guid: c315369228b2b074ea2d67801051c03d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -115,91 +115,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Fisherman_jump_0
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 144
-        width: 28
-        height: 34
-      alignment: 9
-      pivot: {x: 0.30403683, y: 0.037373263}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd6f81f0e3b4ef24b98f153597bfb98e
-      internalID: -22734445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_jump_1
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 96
-        width: 28
-        height: 31
-      alignment: 9
-      pivot: {x: 0.2648442, y: 0.06340248}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc74f7234c16e284b8d8a83c1f3b9514
-      internalID: -776252757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_jump_2
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 48
-        width: 27
-        height: 34
-      alignment: 9
-      pivot: {x: 0.09355785, y: 0.06964964}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3284415fcc488a245a216d3d8fd8155f
-      internalID: 659131866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fisherman_jump_3
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 0
-        width: 26
-        height: 48
-      alignment: 9
-      pivot: {x: 0.10606384, y: 0.042753115}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f4194bf4722e9a41aa36e1cdbd85baf
-      internalID: 1746792580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -210,11 +126,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Fisherman_jump_2: 659131866
-      Fisherman_jump_1: -776252757
-      Fisherman_jump_3: 1746792580
-      Fisherman_jump_0: -22734445
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
