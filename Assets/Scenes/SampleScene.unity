@@ -2215,7 +2215,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4889,6 +4889,26 @@ PrefabInstance:
     - target: {fileID: 1281897610598618946, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390454104283673894, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_Name
+      value: ScoreScript
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728250512268903509, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728250512268903509, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728250512268903509, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728250512268903509, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
