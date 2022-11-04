@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpCooldown;
     private float horizontalInput;
     private bool PlayerIsFishing;
+    public float Health = 100f;
 
     private void Awake()
     {
