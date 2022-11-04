@@ -13,8 +13,6 @@ public class Trailerendnewscene : MonoBehaviour
         video = GetComponent<VideoPlayer>();
         video.Play();
         video.loopPointReached += CheckOver;
-
-
     }
 
 
@@ -22,4 +20,16 @@ public class Trailerendnewscene : MonoBehaviour
     {
         SceneManager.LoadScene(0);//the scene that you want to load after the video has ended.
     }
+
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            SceneManager.LoadScene(0);//the scene that you want to load if we skip intro
+
+        }
+    }
+
+
 }
