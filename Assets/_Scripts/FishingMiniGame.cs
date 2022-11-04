@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class FishingMiniGame : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class FishingMiniGame : MonoBehaviour
     [SerializeField] private float progressBarDecay;
     private float catchProgress;
 
+
+
     private void Start()
     {
         //So we dont loose the game right away
@@ -59,10 +62,11 @@ public class FishingMiniGame : MonoBehaviour
             catchProgress += hookPower * Time.deltaTime;
             if (catchProgress >= 1)
             {
+                ScoreScript.scoreValue += 1;
                 //won the game
                 Debug.Log("You caught a fish!");
                 //Do win logic here
-
+                
             }
         }
         else
