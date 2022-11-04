@@ -1101,6 +1101,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1281897610006061032, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061032, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061032, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
@@ -1113,12 +1121,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1281897610006061035, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_Size.x
+      value: 0.17803918
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061035, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
       propertyPath: m_Size.y
-      value: 0.32690078
+      value: 0.35857478
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281897610006061035, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.04958267
       objectReference: {fileID: 0}
     - target: {fileID: 1281897610006061035, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
       propertyPath: m_Offset.y
-      value: -0.004816866
+      value: 0.17227034
       objectReference: {fileID: 0}
     - target: {fileID: 1281897610006061036, guid: 3e2363f6f9b32c94187b6f70e3f1f030, type: 3}
       propertyPath: MiniGame
