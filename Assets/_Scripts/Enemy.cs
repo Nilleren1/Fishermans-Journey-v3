@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int maxHealth = 100;
-    int currentHealth;
+    public int currentHealth;
 
     private void Start()
     {
@@ -27,8 +27,10 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy Died!");
+
         //Die animation
 
         //Disable enemy
+        Destroy(gameObject);
     }
 }

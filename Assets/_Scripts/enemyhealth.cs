@@ -7,20 +7,20 @@ public class enemyhealth : MonoBehaviour
 {
     private Image EnemyHealth;
     public float CurrentHealth;
-    private float MaxHealth = 4f;
-    enemyFollowScript EnemyPrefab;
+    private float MaxHealth = 100f;
+    Enemy EnemyPrefab;
     // Start is called before the first frame update
     void Start()
     {
         EnemyHealth = GetComponent<Image>();
-        EnemyPrefab = FindObjectOfType<enemyFollowScript>();
+        EnemyPrefab = FindObjectOfType<Enemy>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        CurrentHealth = EnemyPrefab.Health;
+        CurrentHealth = EnemyPrefab.currentHealth;
         EnemyHealth.fillAmount = CurrentHealth / MaxHealth;
     }
 }
