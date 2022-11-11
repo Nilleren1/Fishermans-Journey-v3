@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     //public HealthBarScript healthBar;
     private float wallJumpCooldown;
     private float horizontalInput;
-    private bool PlayerIsFishing;
+    public bool PlayerIsFishing;
     public float Health = 100f;
 
     private void Awake()
@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
+        MiniGame.GetComponent<FishingMiniGame>().player = this;
     }
 
     private void Update()
@@ -152,7 +153,6 @@ public class PlayerMovement : MonoBehaviour
     {
         anim.SetBool("Fishing", true);
         PlayerIsFishing = true;
-
     }
 
     private bool isGrounded()
