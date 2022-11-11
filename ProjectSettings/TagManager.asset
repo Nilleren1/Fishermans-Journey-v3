@@ -9,11 +9,12 @@ TagManager:
   - Water
   - FishingMiniGame
   - Enemy
+  - nr1
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - playerlayer
   - Water
   - UI
   - 

@@ -7,6 +7,7 @@ public class enemyFollowScript : MonoBehaviour
     public GameObject player;
     public float movementSpeed = 3f;
     bool flipped = false;
+    public float Health = 100f;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,4 +53,20 @@ public class enemyFollowScript : MonoBehaviour
        
 
     }
+
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    Debug.Log("collsionmade");
+    //    if (collision.collider.gameObject.CompareTag("Player"))
+    //    {
+    //        TakeDamage();
+    //        Debug.Log("tookdamage");
+    //    }
+    //}
+
+    //void TakeDamage()
+    //{
+    //    Health -= 2f;
+
+    //}
 }

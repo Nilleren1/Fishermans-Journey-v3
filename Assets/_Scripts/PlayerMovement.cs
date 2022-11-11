@@ -3,7 +3,7 @@ using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine.UI;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,9 +17,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
     private CapsuleCollider2D capsuleCollider;
+    //public HealthBarScript healthBar;
     private float wallJumpCooldown;
     private float horizontalInput;
-    private bool PlayerIsFishing;
+    public bool PlayerIsFishing;
     public float Health = 100f;
 
     private void Awake()
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
+        MiniGame.GetComponent<FishingMiniGame>().player = this;
     }
 
     private void Update()
@@ -105,6 +107,12 @@ public class PlayerMovement : MonoBehaviour
             Sprint();
 
         }
+
+        if (Health == 0)
+        {
+            SceneManager.LoadScene(0);
+        }
+
     }
 
     private void Jump()
@@ -145,15 +153,6 @@ public class PlayerMovement : MonoBehaviour
     {
         anim.SetBool("Fishing", true);
         PlayerIsFishing = true;
-
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //if (collision.gameObject.tag == "Ground" )
-        //{
-        //    grounded = true;
-        //}
     }
 
     private bool isGrounded()
@@ -184,6 +183,21 @@ public class PlayerMovement : MonoBehaviour
     {
         MiniGame.gameObject.SetActive(true);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.gameObject.CompareTag("Enemy"))
+        {
+            TakeDamage();
+        }
+    }
+
+    void TakeDamage()
+    {
+        Health -= 25f;
+        
+    }
+
 }
 
     
