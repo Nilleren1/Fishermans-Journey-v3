@@ -21,7 +21,4 @@ public class HealthBarScript : MonoBehaviour
         HealthBar.fillAmount = CurrentHealth / MaxHealth;
     }
 
-
-
-
 }
