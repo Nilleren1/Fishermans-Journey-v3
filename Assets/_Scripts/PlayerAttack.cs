@@ -6,13 +6,12 @@ using UnityEngine.InputSystem;
 
 public class PlayerAttack : MonoBehaviour
 {
-    
+    [SerializeField] public float attackRange = 0.7f;
+    [SerializeField] public int attackDamage = 50;
+
     public Animator animator;
-
-    //public Transform attackPoint;
-    //[SerializeField] public float attackRange = 0.5f;
-    //public LayerMask enemyLayers;
-
+    public LayerMask enemyLayers;
+    public Transform attackPoint;
 
     private void Awake()
     {
@@ -46,24 +45,26 @@ public class PlayerAttack : MonoBehaviour
         //Play attack animation
         animator.SetTrigger("Attack");
         //Detect enemies in range of attack
-        //Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         ////Damage enemy
-        //foreach (Collider2D enemy in hitEnemies)
-        //{
-        //    Debug.Log("We hit" + enemy.name);
-        //}
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("We hit" + enemy.name);
+            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+        }
     }
     public void Attack2()
     {
         //Play attack animation
         animator.SetTrigger("Attack2");
         //Detect enemies in range of attack
-        //Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         ////Damage enemy
-        //foreach (Collider2D enemy in hitEnemies)
-        //{
-        //    Debug.Log("We hit" + enemy.name);
-        //}
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("We hit" + enemy.name);
+            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+        }
     }
 
     public void Attack3()
@@ -73,14 +74,16 @@ public class PlayerAttack : MonoBehaviour
         
     }
 
-    //void OnDrawGizmosSelected()
-    //{
-    //    if (attackPoint == null)
-    //    {
-    //        return;
-    //    }
 
-    //    Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-    //}
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+
+        Gizmos.DrawWireSphere(attackPoint.transform.position, attackRange);
+    }
+  
 
 }
