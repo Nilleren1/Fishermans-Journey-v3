@@ -153,7 +153,6 @@ public class PlayerMovement : MonoBehaviour
     {
         anim.SetBool("Fishing", true);
         PlayerIsFishing = true;
-
     }
 
     private bool isGrounded()

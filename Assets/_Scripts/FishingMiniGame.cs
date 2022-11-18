@@ -32,7 +32,6 @@ public class FishingMiniGame : MonoBehaviour
     [SerializeField] private float progressBarDecay;
     private float catchProgress;
 
-
     public PlayerMovement player;
 
 
