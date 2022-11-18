@@ -35,7 +35,6 @@ public class FishingMiniGame : MonoBehaviour
     public PlayerMovement player;
 
 
-
     private void Start()
     {
         //So we dont loose the game right away
@@ -70,7 +69,6 @@ public class FishingMiniGame : MonoBehaviour
                 //Do win logic here
                 player.PlayerIsFishing = false;
                 catchProgress = 0;
-                
                 
             }
         }
