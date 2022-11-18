@@ -33,6 +33,8 @@ public class FishingMiniGame : MonoBehaviour
     private float catchProgress;
 
 
+    public PlayerMovement player;
+
 
     private void Start()
     {
@@ -66,6 +68,8 @@ public class FishingMiniGame : MonoBehaviour
                 //won the game
                 Debug.Log("You caught a fish!");
                 //Do win logic here
+                player.PlayerIsFishing = false;
+                catchProgress = 0;
                 
             }
         }
